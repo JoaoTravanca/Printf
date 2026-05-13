@@ -6,8 +6,11 @@
 #    By: jtravanc <jtravanc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/11 17:08:04 by jtravanc          #+#    #+#              #
-#    Updated: 2026/05/11 17:08:12 by jtravanc         ###   ########.fr        #
+#    Updated: 2026/05/12 17:47:58 by jtravanc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = prinf.a
+NAME = libftprinf.a
+
+CC = cc
+
