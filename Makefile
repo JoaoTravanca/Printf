@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jtravanc <jtravanc@student.42.fr>          +#+  +:+       +#+         #
+#    By: jtravanca <jtravanca@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/11 17:08:04 by jtravanc          #+#    #+#              #
-#    Updated: 2026/05/12 17:47:58 by jtravanc         ###   ########.fr        #
+#    Updated: 2026/05/17 18:07:19 by jtravanca        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,3 +14,13 @@ NAME = libftprinf.a
 
 CC = cc
 
+SRC = 
+all:
+
+clean:
+
+fclean:
+
+re:
+
+.PHONY
