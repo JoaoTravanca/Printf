@@ -1,53 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf_aux.c                                    :+:      :+:    :+:   */
+/*   ft_tests.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jtravanca <jtravanca@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/17 20:25:44 by jtravanca         #+#    #+#             */
-/*   Updated: 2026/05/18 20:34:21 by jtravanca        ###   ########.fr       */
+/*   Created: 2026/05/18 19:41:57 by jtravanca         #+#    #+#             */
+/*   Updated: 2026/05/18 19:42:26 by jtravanca        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
-#include <unistd.h>
-
-void	ft_putchar (char c)
-{
-	write (1, &c, 1);
-}
-
-void	ft_putstr (char *str)
-{
-	while (*str)
-		ft_putchar(*str++);
-}
-
-void	ft_putnbr (int number)
-{ 
-	long int n;
-	char nmb;
-	
-	n = number;
-	
-	if (n < 0)
-		{
-		write (1, "-", 1);
-		n = -n;	
-		}
-
-	if (n >= 10)
-	{
-		ft_putnbr(n / 10);
-	}
-	nmb = (n % 10) + '0';
-	write(1, &nmb, 1);
-}
-
 int main (void)
 {
-	int number = -123;
-	ft_putnbr (number);
+	printf("this is a test %u");
 	return (0);
 }
